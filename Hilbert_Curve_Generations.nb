@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7847,        215]
-NotebookOptionsPosition[      7372,        198]
-NotebookOutlinePosition[      7763,        214]
-CellTagsIndexPosition[      7720,        211]
+NotebookDataLength[      9078,        246]
+NotebookOptionsPosition[      8603,        229]
+NotebookOutlinePosition[      8994,        245]
+CellTagsIndexPosition[      8951,        242]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -111,50 +111,78 @@ Cell[BoxData[
        RowBox[{"Ticks", "\[Rule]", 
         RowBox[{"{", 
          RowBox[{
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"1", "/", "4"}], ",", 
-            RowBox[{"1", "/", "2"}], ",", 
-            RowBox[{"3", "/", "4"}], ",", "1"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"1", "/", "4"}], ",", 
-            RowBox[{"1", "/", "2"}], ",", 
-            RowBox[{"3", "/", "4"}], ",", "1"}], "}"}]}], "}"}]}], ",", 
-       "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"Range", "[", 
+            RowBox[{"2", "^", "n"}], "]"}], "*", 
+           RowBox[{"2", "^", 
+            RowBox[{"-", "n"}]}]}], ",", 
+          RowBox[{
+           RowBox[{"Range", "[", 
+            RowBox[{"2", "^", "n"}], "]"}], "*", 
+           RowBox[{"2", "^", 
+            RowBox[{"-", "n"}]}]}]}], "}"}]}], ",", "\[IndentingNewLine]", 
        RowBox[{"GridLines", "\[Rule]", 
         RowBox[{"{", 
          RowBox[{
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"1", "/", "4"}], ",", 
-            RowBox[{"1", "/", "2"}], ",", 
-            RowBox[{"3", "/", "4"}], ",", "1"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"1", "/", "4"}], ",", 
-            RowBox[{"1", "/", "2"}], ",", 
-            RowBox[{"3", "/", "4"}], ",", "1"}], "}"}]}], "}"}]}]}], "]"}], 
-     ",", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"Range", "[", 
+            RowBox[{"2", "^", "n"}], "]"}], "*", 
+           RowBox[{"2", "^", 
+            RowBox[{"-", "n"}]}]}], ",", 
+          RowBox[{
+           RowBox[{"Range", "[", 
+            RowBox[{"2", "^", "n"}], "]"}], "*", 
+           RowBox[{"2", "^", 
+            RowBox[{"-", "n"}]}]}]}], "}"}]}]}], "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"Ticks", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"1", "/", "4"}], ",", 
+             RowBox[{"1", "/", "2"}], ",", 
+             RowBox[{"3", "/", "4"}], ",", "1"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"1", "/", "4"}], ",", 
+             RowBox[{"1", "/", "2"}], ",", 
+             RowBox[{"3", "/", "4"}], ",", "1"}], "}"}]}], "}"}]}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"GridLines", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"1", "/", "4"}], ",", 
+             RowBox[{"1", "/", "2"}], ",", 
+             RowBox[{"3", "/", "4"}], ",", "1"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"1", "/", "4"}], ",", 
+             RowBox[{"1", "/", "2"}], ",", 
+             RowBox[{"3", "/", "4"}], ",", "1"}], "}"}]}]}]}]}], "*)"}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
      RowBox[{"{", 
       RowBox[{"n", ",", "1", ",", "9", ",", "1"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"i", ",", "1", ",", 
        RowBox[{"4", "^", "n"}], ",", "1"}], "}"}]}], "\[IndentingNewLine]", 
     "]"}]}]}]], "Input",
- CellLabel->
-  "In[539]:=",ExpressionUUID->"6a754ec9-7d1f-4c3c-b411-8bbccd746073"],
+ CellChangeTimes->{{3.857406360894525*^9, 3.857406399223791*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"6a754ec9-7d1f-4c3c-b411-8bbccd746073"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`i$$ = 1, $CellContext`n$$ = 1, 
+   DynamicModuleBox[{$CellContext`i$$ = 3798, $CellContext`n$$ = 6, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`n$$], 1, 9, 1}, {
       Hold[$CellContext`i$$], 1, 
-      Dynamic[4^$CellContext`n$$], 1}}, Typeset`size$$ = {360., {189., 194.}},
+      Dynamic[4^$CellContext`n$$], 1}}, Typeset`size$$ = {360., {187., 191.}},
      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
@@ -174,13 +202,17 @@ Cell[BoxData[
         Medium, Axes -> True, AxesOrigin -> {0, 0}, 
         AxesLabel -> {$CellContext`x, $CellContext`y}, AspectRatio -> 1, 
         PlotRange -> {{0, 1}, {0, 1}}, 
-        Ticks -> {{1/4, 1/2, 3/4, 1}, {1/4, 1/2, 3/4, 1}}, 
-        GridLines -> {{1/4, 1/2, 3/4, 1}, {1/4, 1/2, 3/4, 1}}], 
+        Ticks -> {
+         Range[2^$CellContext`n$$] 2^(-$CellContext`n$$), 
+          Range[2^$CellContext`n$$] 2^(-$CellContext`n$$)}, 
+        GridLines -> {
+         Range[2^$CellContext`n$$] 2^(-$CellContext`n$$), 
+          Range[2^$CellContext`n$$] 2^(-$CellContext`n$$)}], 
       "Specifications" :> {{$CellContext`n$$, 1, 9, 1}, {$CellContext`i$$, 1, 
          
          Dynamic[4^$CellContext`n$$], 1}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{405., {248., 254.}},
+     ImageSizeCache->{405., {246., 252.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -191,9 +223,8 @@ Cell[BoxData[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.8568201672757072`*^9},
- CellLabel->
-  "Out[541]=",ExpressionUUID->"5eb0f718-2164-4060-b595-94cadcff248c"]
+ CellChangeTimes->{3.8574064002292128`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"ee8859ce-bd1a-44b9-8616-b558ead37931"]
 }, Open  ]]
 },
 WindowSize->{808, 670},
@@ -214,8 +245,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 4536, 123, 472, "Input",ExpressionUUID->"6a754ec9-7d1f-4c3c-b411-8bbccd746073"],
-Cell[5119, 147, 2237, 48, 521, "Output",ExpressionUUID->"5eb0f718-2164-4060-b595-94cadcff248c"]
+Cell[580, 22, 5610, 151, 535, "Input",ExpressionUUID->"6a754ec9-7d1f-4c3c-b411-8bbccd746073"],
+Cell[6193, 175, 2394, 51, 517, "Output",ExpressionUUID->"ee8859ce-bd1a-44b9-8616-b558ead37931"]
 }, Open  ]]
 }
 ]
